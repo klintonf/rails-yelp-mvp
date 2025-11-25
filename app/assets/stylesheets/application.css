@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+h1 {
+  padding-top: 2.5rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+.restaurants-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding-top: 2.5rem;
+}
+.restaurant-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

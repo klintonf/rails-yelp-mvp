@@ -1,8 +1,8 @@
 <h1>Restaurants</h1>
 
-<%= link_to "Add a new restaurant", new_restaurant_path, class: "btn btn-primary mb-3" %>
+<%= link_to "Add a new restaurant", new_restaurant_path, class: "btn btn-primary mb-3 pt-10 w-auto" %>
 
-<div class="restaurants-list">
+<div class="restaurants-list pt-10 w-auto justify-center">
   <% @restaurants.each do |restaurant| %>
     <div class="restaurant-card">
       <h3><%= link_to restaurant.name, restaurant_path(restaurant) %></h3>
